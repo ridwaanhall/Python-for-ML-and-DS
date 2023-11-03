@@ -59,3 +59,43 @@ print(second_row)
 second_column = my_array[:, 1]
 print(second_column)
 # %%
+# slicing array
+my_array = [1, 2, 3, 4, 5]
+# %%
+# pick the second, third and fourth element
+elements = my_array[1:4]
+print(elements)
+# %%
+# first three elements
+first_three_elements = my_array[:3]
+print(first_three_elements)
+# %%
+# last two elements
+last_two_elements = my_array[-2:]
+print(last_two_elements)
+# %%
+# slicing a 1D array
+my_array = [1, 2, 3, 4, 5]
+# %%
+# pick the second, third and fourth element
+elements = my_array[1:4]
+print(elements)
+# %%
+# all elements
+all_elements = my_array[:]
+print(all_elements)
+# %%
+# slicing a2D array
+my_array = np.array(
+    [[101,231,321,412,511],
+     [102,232,322,413,512],
+     [103,233,323,414,513],
+     [105,235,325,416,515]])
+my_array
+# %%
+# select all rows except the 1st
+selected_rows = my_array[1:]
+print(selected_rows)
+# select 3rd and 4th column
+selected_columns = my_array[:, 2:4]
+print(selected_columns)
