@@ -99,3 +99,29 @@ print(selected_rows)
 # select 3rd and 4th column
 selected_columns = my_array[:, 2:4]
 print(selected_columns)
+# select all rows except 1st and select 3rd and 4th column
+selected_elements = my_array[1:, 2:4]
+print(selected_elements)
+# %%
+# operation on array
+my_array1 = np.array([1, 2, 3, 4, 5])
+my_array2 = np.arange(5)
+my_array2
+# %%
+# add two arrays
+addition = my_array1 + my_array2
+print(addition)
+# %%
+# subtract two arrays
+subtraction = my_array1 - my_array2
+print(subtraction)
+# %%
+# multiply two arrays
+multiplication = my_array1 * my_array2
+print(multiplication)
+# %%
+# divide two arrays
+division = my_array1 / my_array2
+print(division)
+
+# %%
